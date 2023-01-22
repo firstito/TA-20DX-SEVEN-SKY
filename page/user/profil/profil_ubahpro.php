@@ -4,7 +4,7 @@
 <div id="box">
 
 <h1>Barang Jualan Ubah</h1>
-<!-- code by muh iriansyah putra pratama -->
+
 <?php
 
   include 'lib/koneksi.php';
@@ -17,7 +17,6 @@
   $username = $_POST['username'];
   $pass = $_POST['password'];
 
-// code by muh iriansyah putra pratama
           try {
       			$conn ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -32,7 +31,6 @@
 
       			$updatedata = array(':nama_lengkap' => $nama_lengkap, ':email' => $email, ':username' => $username,
                                 ':password' => $pass, ':alamat' => $alamat, ':no_hp' => $nohp, ':id_user' => $id);
-// code by muh iriansyah putra pratama
       			$pdo->execute($updatedata);
 
 						echo "<center><img src='img/icons/ceklist.png' width='60'></center>";
@@ -45,8 +43,7 @@
       			print "Insert data gagal: " . $e->getMessage() . "<br/>";
       		   die();
       		}
-// code by muh iriansyah putra pratama
 
  ?>
-<!-- code by muh iriansyah putra pratama -->
+< -->
 </div>

@@ -4,9 +4,9 @@
 <div id="box">
 <h1>Pembayaran</h1>
 <?php
-// code by muh iriansyah putra pratama
+
     include 'lib/koneksi.php';
-// code by muh iriansyah putra pratama
+
 
     $total = $_GET['jum'];
     $id = $_GET['id'];
@@ -61,6 +61,6 @@
       print "Added data failed: " . $e->getMessage() . "<br/>";
        die();
     }
-// code by muh iriansyah putra pratama
+
  ?>
 </div>

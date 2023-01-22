@@ -1,4 +1,4 @@
-<div class="box-title">
+v<div class="box-title">
     <p>Profil / <b>Detail User</b></p>
 </div>
 <div id="box">
